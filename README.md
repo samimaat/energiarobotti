@@ -5,7 +5,9 @@ The bot in action over on Twitter: [@energiarobotti](https://twitter.com/energia
 
 ## How did I do it?
 
-I plan to release blog posts detailing how I did the bot on my website [samimaatta.fi](https://samimaatta.fi). I used extensively [Aaron Jack's Twitter bot building video](https://youtu.be/83o6rU5XArs). It is a bit outdated already, but the general ideas hold. Hardest parts are getting the Twitter developer account and Google's APIs to work. 😂
+I pretty much followed [Aaron Jack's Twitter bot building video](https://youtu.be/83o6rU5XArs). It is a bit outdated already, but the general ideas hold. Hardest parts are getting the Twitter developer account and Google's APIs to work. 😂
+
+I plan to release blog posts detailing how I did the bot on my website [samimaatta.fi](https://samimaatta.fi).
 
 ## Caveat about the code
 
