@@ -19,10 +19,11 @@ col_len = len(wks.col_values(1))
 
 # Randomize the selection of tweets with rand using number of tweets (col_len).
 # Start from row 2, since the first row is a header.
-rand = str(randint(2, col_len))
+rand = randint(2, col_len)
 
-# Reference the specific cell from the first column (A) and row (rand). Turn it into a tweet (string).
-tweet = wks.acell("A" + rand).value
+# Reference the specific cell from the first column (A) and row (rand). Turn rand into a string to concatenate with the letter.
+# Turn it into a tweet (string).
+tweet = wks.acell("A" + str(rand)).value
 
 # twitter to access the bot account with credentials
 t = Twitter(
